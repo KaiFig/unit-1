@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%202/Total_cost.jpg)
 
 ```.py
 # Read an integer:
