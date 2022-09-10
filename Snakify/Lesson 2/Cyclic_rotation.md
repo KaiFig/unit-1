@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%202/Cyclic_rotation.jpg)
 
 ```.py
 number1 = int(input())
