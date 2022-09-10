@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Distance_to_closest_point.jpg)
 
 ```.py
 point1 = abs(int(input()))
