@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Is_three_digit.jpg)
 
 ```.py
 integer = int(input())
