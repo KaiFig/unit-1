@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Exactly_one_odd.jpg)
 
 ```.py
 integer = int(input())
