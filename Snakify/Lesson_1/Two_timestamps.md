@@ -1,3 +1,4 @@
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson_1/Two_timestamps.jpg)
 ```.py
 
 h = int(input())
