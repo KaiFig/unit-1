@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Chess_board_same_color.jpg)
 
 ```.py
 positionx1 = int(input())
