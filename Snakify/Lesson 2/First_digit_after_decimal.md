@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%202/First_digit_after_decimal.jpg)
 
 ```.py
 number = float(input())
