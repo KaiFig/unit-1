@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%202/Reverse_three_digits.jpg)
 
 ```.py
 a = int(input())
