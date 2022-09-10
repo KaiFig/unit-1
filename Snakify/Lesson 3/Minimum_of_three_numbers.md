@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Minimum_of_three_numbers.jpg)
 
 ```.py
 integera = int(input())
