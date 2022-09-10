@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%202/Clock_face_2.jpg)
 
 ```.py
 hourdeg = float(input())
