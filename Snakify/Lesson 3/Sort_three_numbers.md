@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Sort_three_numbers.jpg)
 
 ```.py
 num1 = int(input())
