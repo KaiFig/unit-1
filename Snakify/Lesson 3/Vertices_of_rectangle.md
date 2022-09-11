@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Vertices_of_rectangle.jpg)
 
 ```.py
 x1 = int(input())
