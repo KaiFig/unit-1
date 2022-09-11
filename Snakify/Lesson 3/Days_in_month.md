@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Days_in_month.jpg)
 
 ```.py
 month = int(input())
