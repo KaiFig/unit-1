@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/Chocolate_bar.jpg)
 
 ```.py
 n = int(input())
