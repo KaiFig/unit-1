@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/Snakify/Lesson%203/White_pawn_move.jpg)
 
 ```.py
 x1 = int(input())
