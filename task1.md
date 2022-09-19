@@ -1,5 +1,22 @@
 ![Solution](https://github.com/KaiFig/unit-1/blob/main/task1_test.jpg)
 
+
+Question 1: 
+Sierra 
+Started in 1992 after the non-proliferation treaty
+Ended arms race
+US didn’t follow the non-proliferation treaty
+Using sierra to try to model the reliability of the nuclear weapons arsenal for the US
+Models changes due to age to see if anything will break (Job gets harder the older they get)
+Part of the stockpile stewardship program
+
+Question 2: 
+The benefits of these supercomputers is that they enable us to figure out problems that are too complex for normal computers or us. Therefore, they can find life saving solutions to problems. However, one drawback is the risk of these machines falling into the wrong hands, that could create enormous problems for society. 
+
+Question 3:
+In Japan the most advanced computer is Fugaku. It is located in the Riken Center for Computational Science in Kobe. It has a speed of 442 PFLOPS and it has been used for COVID research and meteorological forecasting. 
+
+
 ```.py
 locker = input("Enter your locker number: ")
 number_lockers = 2400
