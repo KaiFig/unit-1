@@ -1,4 +1,4 @@
-
+![Solution](https://github.com/KaiFig/unit-1/blob/main/task1_test.jpg)
 
 ```.py
 locker = input("Enter your locker number: ")
