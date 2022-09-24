@@ -1,6 +1,6 @@
-Task 1: 
+Task 1.1: 
 ![Task_1_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.1_test.jpg)
-
+![Task_1_flowchart](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.1_flowchart.jpg)
 
 Question 1: 
 Sierra 
