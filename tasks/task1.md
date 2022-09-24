@@ -1,7 +1,8 @@
 Task 1.1: 
 ![Task_1_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.1_test.jpg)
 ![Task_1_flowchart](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.1_flowchart.jpg)
-
+Task 1.2:
+![Tas_2_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.2_test.jpg)
 Question 1: 
 Sierra 
 Started in 1992 after the non-proliferation treaty
