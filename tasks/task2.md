@@ -1,5 +1,5 @@
-![Task_2.2_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.1_test.jpg)
-
+![Task_2.1_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.1_test.jpg)
+![Task_2.2_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.2_test.jpg)
 ```.py
 
 from My_library import validate_int_input, colors, end_code, bold
