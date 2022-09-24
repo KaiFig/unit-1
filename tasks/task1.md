@@ -18,6 +18,22 @@ In Japan the most advanced computer is Fugaku. It is located in the Riken Center
 
 
 ```.py
+
+#Part 1: 
+
+lockernum = 2400
+colors1 = ["blue", "red", "white", "yellow"]
+blue = "\33[0;34m"
+red = "\33[0;31m"
+white = "\33[0;37m"
+yellow = "\33[0;33m"
+colors = [blue, red, white, yellow]
+for locker in range(1,lockernum+1):
+    color2 = (colors1[locker%4])
+    color = (colors[locker%4])
+    print(f"{color}Locker no.{locker} is {color2.center(50,'.')}")
+    
+#Part 2: 
 locker = input("Enter your locker number: ")
 number_lockers = 2400
 max_num_tries = 5
