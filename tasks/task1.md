@@ -1,4 +1,5 @@
-![Solution](https://github.com/KaiFig/unit-1/blob/main/task1_test.jpg)
+Task 1: 
+![Task_1_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_1.1_test.jpg)
 
 
 Question 1: 
