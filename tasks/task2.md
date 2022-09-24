@@ -69,11 +69,11 @@ if option == 3:
         total_hrs += total_minutes//60
         total_seconds += (total_energy1 % 60)
         total_minutes == (total_minutes%60)
-        print(f"{colors[6]}{total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
+        print(f"{colors[6]}The total charging time is {total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
     else:
         total_seconds += (total_energy1%60)
         total_minutes == total_minutes//60
-        print(f"{colors[6]}{total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
+        print(f"{colors[6]}The total charging time is {total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
 
 
 
