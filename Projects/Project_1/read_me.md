@@ -18,6 +18,14 @@ I will design and make a digital ledger for a client who is a local trader. The 
 ** add a description of your coin and citation **
 Kai: Avalanche 
 
+## Rationale for solution
+
+  In this project I will be coding in python to create the crypto wallet for Ms. Sato. This is because python is quite a simple coding language compared to other languages and with that I wil be able to progress quicker on this project. Additionally, in this computer science class, we have only learnt how to code in python so far. Therefore, if we weren't using python in this project it would be very hard and almost impossible to do a project at this level since it would require us to learn a completely new coding language. 
+  
+  In this project, I will be using PyCharm to help me code this crypto wallet. This is because we have been using PyCharm during this year to develop our coding skills. PyCharm points out the errors that we have and it also enables us to create different types of files which is of utmost importance in this project. Also, it organizes new python files and also makes it more efficient for us. This project requires us to use different types of files like .csv files so it is beneficial to base it all on a platform that enables us to do so. 
+  
+  Lastly, for this project, I have decided to make a digital wallet that runs in the Terminal because that is what the customer has requested. I have also decided to make it more secure by requiring a password to access and it makes sure that Ms. Sato can keep her cryptocurrency transactions organized. 
+
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
