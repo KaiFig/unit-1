@@ -32,7 +32,7 @@ Kai: Avalanche
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger will provide and display her transactions with a graph
 5. The electronic ledger will be secure and require a password
-6. The electronic ledger will display statistics of her account per month
+6. The electronic ledger will display statistics (Deposit and Withdraw) of her account per month
 
 
 # Criteria B: Design
