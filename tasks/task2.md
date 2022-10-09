@@ -1,6 +1,93 @@
 ![Task_2.1_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.1_test.jpg)
+## Option 1 
+```.py
+if option == 1:
+    index = 0
+    total_energy = 0
+    total_hrs1 = 0
+    total_energy1 = 0
+    total_energy2 = 0
+    total_hrs = 0
+    total_minutes = 0
+    total_seconds = 0
+    for log in ev_logs:
+        if index > 0:
+            values = log.split(",")
+            date = values[0]
+            energy = values[1]
+            time = values[2]
+            total_energy += float(energy[0:5])
+        elif index > 0:
+            secs = log.split(":")
+            time = secs[0]
+            time1 = secs[2]
+            time2 = secs[1]
+            total_hrs1 += float(time[17:19])
+            total_energy1 += float(time1[0:2])
+            total_energy2 += float(time2[0:2])
+
+        index += 1
+    total_hrs += (total_hrs1 + total_energy2 // 60)
+    total_minutes += (total_energy2 % 60 + total_energy1 // 60)
+    if total_minutes < 30:
+        total_hrs += total_minutes // 60
+        total_seconds += (total_energy1 % 60)
+        total_minutes == (total_minutes % 60)
+        total = ((total_hrs/3600)+(total_minutes/60)+total_seconds)
+        persec = total_energy/126000
+        times = 1/persec
+        hours = ((1*times)//3600)
+        mins = (((1*times)%3600)//60)
+        secs1 = (((1*times)%3600)%60)
+        print(f"{colors[3]}{hours} hour {mins} minutes and {math.ceil(secs1)} seconds to charge 1 kWh")
+    else:
+        total_seconds += (total_energy1 % 60)
+        total_minutes == total_minutes % 60
+        total = ((total_hrs/3600)+(total_minutes/60)+total_seconds)
+        persec = total_energy/126000
+        times = 1/persec
+        hours = ((1 * times) // 3600)
+        mins = (((1 * times) % 3600) // 60)
+        secs1 = (((1*times)%3600)%60)
+        print(f"{colors[4]}{hours} hour {mins} minutes and {math.ceil(secs1)} seconds to charge 1 kWh")
+ ```
+
 ![Task_2.2_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.2_test.jpg)
 ![Task_2.3_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.3_test.jpg)
+## Option 3
+
+```.py
+if option == 3:
+    index = 0
+    total_hrs1 = 0
+    total_energy1 = 0
+    total_energy2 = 0
+    total_hrs = 0
+    total_minutes = 0
+    total_seconds = 0
+    for log in ev_logs:
+        if index > 0:
+            secs = log.split(":")
+            time = secs[0]
+            time1 = secs[2]
+            time2 = secs[1]
+            total_hrs1 += float(time[17:19])
+            total_energy1 += float(time1[0:2])
+            total_energy2 += float(time2[0:2])
+
+        index += 1
+    total_hrs += (total_hrs1 + total_energy2 // 60)
+    total_minutes += (total_energy2%60 + total_energy1//60)
+    if total_minutes > 59:
+        total_hrs += total_minutes//60
+        total_seconds += (total_energy1 % 60)
+        total_minutes == (total_minutes%60)
+        print(f"{colors[6]}The total charging time is {total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
+    else:
+        total_seconds += (total_energy1%60)
+        total_minutes == total_minutes//60
+        print(f"{colors[6]}The total charging time is {total_hrs} hours {total_minutes%60} minutes and {total_seconds} seconds")
+```
 ![Task_2.4_test](https://github.com/KaiFig/unit-1/blob/main/tasks/Task_2.4_test.jpg)
 ```.py
 
