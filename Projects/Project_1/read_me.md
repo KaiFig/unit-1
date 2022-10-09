@@ -37,9 +37,11 @@ Kai: Avalanche
 # Criteria B: Design
 
 ## System Diagram
-
+![System diagram](https://github.com/KaiFig/unit-1/blob/main/Projects/Project_1/Screen%20Shot%202022-10-09%20at%205.24.06%20PM.png)
 ## Flow Diagrams
-
+![Flow diagram 1](https://github.com/KaiFig/unit-1/blob/main/Projects/Project_1/IMG_0056.jpg)
+![Flow diagram 2](https://github.com/KaiFig/unit-1/blob/main/Projects/Project_1/Screen%20Shot%202022-10-09%20at%205.25.36%20PM.png)
+![Flow diagram 3](https://github.com/KaiFig/unit-1/blob/main/Projects/Project_1/Screen%20Shot%202022-10-09%20at%205.32.59%20PM.jpg)
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
