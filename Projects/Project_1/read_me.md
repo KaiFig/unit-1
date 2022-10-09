@@ -52,6 +52,7 @@ Kai: Avalanche
 | 6       | Write the rationale for solution                            | Know exactly why I am choosing to do certain things                                                                | 20min         | Oct 1                  | A         |
 | 7       | Create and test the password system                         | Make sure that the password protection is accurate and that it works for the user                                  | 30min         | Oct 2                  | C         |
 | 8       | Create validation systems for every user input              | To make sure that the code won't crash and that the user experience is improved                                    | 1h 30 min     | Oct 3                  | C         |
+|9        | Create a test plan                                          | To know what I have to test to make sure that the code works                                                      | 20 min        | Sep 30                 | B
 
 ## Test plan
 | Tests | Input                                                         | Expected output
@@ -59,7 +60,10 @@ Kai: Avalanche
 |Password test| Correct password, incorrect password                     | f"{colors[1]}Please try again,{end_code} you have {max_num_tries} chances left ") or "Welcome to the digital ledger, Ms. Sato".center(70, "-")
 |User selecting the option | Option between 1 and 3, option not between 1 and 3| Moves to option or (f"{colors[1]}Error please enter a valid input{end_code}")
 |Start and message menu | None | print(f"{colors[4]}Welcome to the Avalanche crypto wallet!{end_code}")
-| 
+|Option 1 (withdraw and deposit)| User inputs 1 in menu choice| print(f"{colors[6]}Thank you for using the crypto wallet, your money has been deposited{end_code}") print(f"{colors[5]}Your current balance is now {balance} AVX {end_code}") or print(f"{colors[6]}Thank you for using the crypto wallet, your money has been withdrawn.{end_code}") print(f"{colors[5]}Your current balance is now {balance} AVX {end_code}")
+|Password input counter| Correct password, incorrect                     | passwordin = input(f"{colors[1]}Please try again,{end_code} you have {max_num_tries} chances left ")
+|Test every single validation | Wrong input that is out of range, not an integer etc | An error messsage asking them to input the right number
+  
 
 Screen recording: https://drive.google.com/drive/folders/11DtlwHXdLAtS0auKOizCaDn1EOAdDpEN
 
