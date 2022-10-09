@@ -66,7 +66,44 @@ Kai: Avalanche
 |Password input counter| Correct password, incorrect                     | passwordin = input(f"{colors[1]}Please try again,{end_code} you have {max_num_tries} chances left ")
 |Test every single validation | Wrong input that is out of range, not an integer etc | An error messsage asking them to input the right number
   
+## Criteria C
 
+```.py
+def option_3():
+    print("Display transactions")
+    year = input('Please enter year, 2021 or 2022')
+    year1 = validateyear(year)
+    month_transaction = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    month = ['Jan |', 'Feb |', 'Mar |', 'Apr |', 'May |', 'Jun |', 'Jul |', 'Aug |', 'Sep |', 'Oct |', 'Nov |', 'Dec |']
+
+    with open('Digital_wallet.csv', 'r') as f:
+        date = f.readlines()
+    for i in date:
+        x = i.split(',')
+        if x[2] == str(year1):
+            month_transaction[int(x[0]) - 1] += 1
+    for i in range(12):
+        print(f'{month[i]} {("█ ") * month_transaction[i]}')
+
+```
+In this example, I made a function for the third option in the menu. I made sure to use validation and called functions from other files and I opened and read the file. I also used if statements and for loops in this function like we learned in class. 
+
+```.py
+def password():
+    with open("project1_password.csv", "r") as file:
+        line = file.readlines()
+        password = line[0]
+        passwordin = input("Please enter your password: ")
+        max_num_tries = 5
+        while not password == passwordin and max_num_tries > 0:
+            max_num_tries -= 1
+            passwordin = input(f"{colors[1]}Please try again,{end_code} you have {max_num_tries} chances left ")
+            if max_num_tries < 0:
+                exit("The passwords were incorrect")
+        welcome_msg = "Welcome to the digital ledger, Ms. Sato".center(70, "-")
+        print(f"{colors[4]}{welcome_msg}{end_code}")
+```
+For this example I again made a function for the password. I made sure to store the password outside of the actual file that the project was running in to encrypt it a bit. I also used while loops and if statements for this example. 
 Screen recording: https://drive.google.com/drive/folders/11DtlwHXdLAtS0auKOizCaDn1EOAdDpEN
 
 ```.py
